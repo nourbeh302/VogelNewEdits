@@ -1,0 +1,25 @@
+.grid-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    text-align: left;
+    align-items: start;
+  }
+
+  .grid-body div {
+    flex: 1 1 300px;
+  }
+
+  .grid-body .grid-cta {
+    border: 2px solid var(--light-color);
+    box-shadow: 0px 0px white;
+    font-family: var(--font-display);
+    padding: 16px 32px;
+
+    transition: all 125ms var(--transition-type);
+  }
+
+  .grid-body .grid-cta:hover {
+    box-shadow: 4px 4px white;
+  }
