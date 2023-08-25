@@ -44,11 +44,11 @@ body {
   font-family: var(--font-paragraph);
 }
 
-.container-inline {
+.padding-inline {
   padding-inline: 8%;
 }
 
-.container-block {
+.padding-block {
   padding-block: 32px;
 }
 
@@ -516,7 +516,7 @@ form {
 }
 
 @media (width < 525px) {
-  .container-inline {
+  .padding-inline {
     padding-inline: 16px;
   }
 
